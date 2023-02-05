@@ -1,0 +1,12 @@
+.place__paragraphs {
+  grid-area: paragraphs;
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+}
+@media (max-width: 767px) {
+  .place__paragraphs {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+  }
+}

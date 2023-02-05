@@ -1,0 +1,19 @@
+.place__image {
+  width: 100%;
+  grid-area: image;
+}
+@media (min-width: 768px) {
+  .place__image {
+    min-width: 340px;
+  }
+}
+@media (min-width: 1024px) {
+  .place__image {
+    min-width: 440px;
+  }
+}
+@media (min-width: 1280px) {
+  .place__image {
+    min-width: 460px;
+  }
+}
